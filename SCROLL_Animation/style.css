@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    padding: 70px 10px;
+}
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: lightsalmon;
+}
+
+#page2 h1 {
+    color: #111;
+    font-size: 70vh;
+}
+
+
