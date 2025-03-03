@@ -9,6 +9,10 @@ html, body{
     width: 100%;
 }
 
+body  {
+    overflow-x: hidden;
+}
+
 #section1 {
     height: 100%;
     width: 100%;
@@ -39,12 +43,12 @@ nav h1 i{
     rotate: 25deg;
 }
 nav h4 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 nav button {
-   padding: 8px 20px;
-   font-size: 22px;
+   padding: 8px 15px;
+   font-size: 20px;
    border-radius: 7px;
    background-color: transparent;
    font-weight: 600;
@@ -54,7 +58,7 @@ nav button {
 
 .center {
     padding: 50px;
-    height: 80%;
+    height: 60%;
     width: 100%;
     display: flex;
 }
@@ -67,25 +71,25 @@ nav button {
 .center-part2{
     height: 100%;
     width: 56%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .center-part1 h1 {
     line-height: 1;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .center-part1 p {
-    font-size: 25px;
+    font-size: 20px;
     width: 95%;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 12px;
 }
 
 .center-part1 button {
     background-color: black;
     color: #fff;
-    padding: 12px 30px;
+    padding: 12px 25px;
     border-radius: 10px;
     font-weight: 600;
     border: none;
@@ -93,19 +97,20 @@ nav button {
 
 .center-part2 img {
     position: absolute;
+    top: 120px;
     right: 0;
-    height: 75%;
-    width: 50%;
+    height: 70%;
+    width: 60%;
 }
 
 .section1bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 120px;
+    padding: 50px 120px;
 }
 .section1bottom img{
-    height: 70px;
+    height: 60px;
 }
 
 .section2 .services {
@@ -147,9 +152,8 @@ nav button {
     width: 48%;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: red;
     box-shadow: 0px 10px 0px black;
-    padding: 50px;
+    padding: 25px;
     display: flex;
 }
 
@@ -173,12 +177,42 @@ nav button {
 
 .elem-part1 h2 {
     font-size: 20px;
-    width: 60%;
-    padding: 10px ;
+    width: 70%;
+    padding: 0 10px;
+    border-radius: 10px;
     background-color: #9AE975;
     font-weight: 500;
 }
 
+.elem-part1 h4 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+}
 
+.elem-part1 h4 i{
+    padding: 7px;
+    background-color: black;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: #000;
+}
+
+
+.elem.black.line1.right .elem-part1 h4 i,
+.elem.black.line2.left .elem-part1 h4 i {
+    background-color: white;
+    color: black;
+}
+.elem.black.line1.right .elem-part1 h4,
+.elem.black.line2.left .elem-part1 h4 {
+    color: white;
+}
 
 
